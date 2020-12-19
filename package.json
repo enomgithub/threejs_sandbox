@@ -1,0 +1,23 @@
+{
+  "name": "ThreeJSSandbox",
+  "version": "0.0.1",
+  "main": "./dist/main.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "npx rollup --config rollup.config.js",
+    "serve": "py -3 -m http.server 8080"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^17.0.0",
+    "@rollup/plugin-node-resolve": "^11.0.1",
+    "@rollup/plugin-typescript": "^5.0.1",
+    "@types/node": "^14.0.14",
+    "glob": "^7.1.6",
+    "rollup": "^2.18.2",
+    "tslib": "^2.0.0",
+    "typescript": "^3.9.6"
+  },
+  "dependencies": {
+    "three": "^0.118.3"
+  }
+}
